@@ -18,12 +18,16 @@ The dataset used for this project contains real-world data science job informati
 Dashboard Build:
 📉 Charts
 📊 Data Science Job Salaries - Bar Chart
+<img width="1336" height="867" alt="1_Salary_Dashboard_Chart1" src="https://github.com/user-attachments/assets/1cb8f5cc-37ac-485d-bfa5-70da6d4bb603" />
+
 - 🛠️ Excel Features: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 Design Choice: Horizontal bar chart for visual comparison of median salaries.
 - 📉 Data Organization: Sorted job titles by descending salary for improved readability.
 Insights Gained: This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
 🗺️ Country Median Salaries - Map Chart
+<img width="800" height="430" alt="1_Salary_Dashboard_Country_Map" src="https://github.com/user-attachments/assets/c8588a50-f553-46f3-b860-0fe9e827f4ee" />
+
 - 🛠️ Excel Features: Utilized Excel's map chart feature to plot median salaries globally.
 - 🎨 Design Choice: Color-coded map to visually differentiate salary levels across regions.
 - 📊 Data Representation: Plotted median salary for each country with available data.
@@ -50,7 +54,11 @@ IF(
 - 🔢 Formula Purpose: This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 🍽️ Background Table:
+<img width="265" height="220" alt="1_Salary_Dashboard_Screenshot1" src="https://github.com/user-attachments/assets/aee1d528-1410-4186-843d-6389f5503373" />
+
 📉 Dashboard Implementation:
+<img width="1148" height="1214" alt="1_Salary_Dashboard_Job_Title" src="https://github.com/user-attachments/assets/5d201fbf-4f45-455c-87c2-34aef360d376" />
+
 ⏰ Count of Job Schedule Type
 
 ```
@@ -60,8 +68,12 @@ IF(
 - 🔍 Unique List Generation: This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
 - 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
 
-🍽️ Background Table
+🍽️ Background Table:
+<img width="195" height="119" alt="1_Salary_Dashboard_Screenshot2" src="https://github.com/user-attachments/assets/82085707-2030-43fe-b3b6-d46fadfc9219" />
+
 📉 Dashboard Implementation:
+<img width="942" height="1212" alt="1_Salary_Dashboard_Type" src="https://github.com/user-attachments/assets/222f71f6-c451-4fe4-9ad7-c01a0dc5d3fe" />
+
 ❎ Data Validation
 🔍 Filtered List
 - 🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
